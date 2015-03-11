@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="8" height="6" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32">
+  <image source="tiles.png" width="128" height="32"/>
+ </tileset>
+ <layer name="FLOOR" width="8" height="6">
+  <data encoding="csv">
+3,3,3,3,3,3,3,3,
+3,3,3,4,3,3,3,3,
+3,3,3,4,3,3,3,3,
+3,3,3,4,3,3,3,3,
+3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3
+</data>
+ </layer>
+ <layer name="EVENT" width="8" height="6">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,
+1,1,0,0,0,0,0,1,
+1,0,2,2,2,0,0,1,
+1,0,0,0,0,1,1,1,
+1,0,0,0,0,1,1,1,
+1,1,1,1,1,1,1,1
+</data>
+ </layer>
+</map>

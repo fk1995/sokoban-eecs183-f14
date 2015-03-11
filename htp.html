@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<meta charset="utf8"/>
+<html>
+	<head>
+		<script src="static/jquery.js"></script>
+		<script src="static/htp.js"> </script>
+		<link rel="stylesheet" type="text/css" href="static/stylesheet_htp.css" />
+	</head>
+	<body>
+		<a href="title.html">
+			<div id="back">
+				☜
+			</div>
+		</a>
+		<div id="title">
+				<img id="image" src="static/title.png" />
+		</div>
+		<div id="htp">
+			<h1>
+				How to play:
+			</h1>
+		</div>
+		<div id="explain">
+			<h3>
+				The object of Sokoban is to take some objects (usually boxes) to designated locations by pushing them.
+				To do this the user moves a man who we call Sokoban. Sokoban can move up, down, left and right. 
+				He can't pass through walls or boxes. He can push only one box at a time (never pull). 
+				At any time a square can only be occupied by one of a wall, box or man.
+				The steps would be counted at the bottom of the page for each time you move and you may have chance 
+				to type in your name if number of your move steps is the lowest.
+				In the topright of the screen there are two buttons which enables you to reset the game (to start over) or to undo the last pushing move. Notice that your move counter will be changed and there is no way to redo your last move.
+			</h3>
+		</div>
+		<br class="switch">
+		<div class="switch">
+			↓ Video ↓
+		</div>
+		<div class="switch" style="display: none">
+			↑ Text ↑
+		</div>
+		<br  class="switch" style="display: none">
+		<video width="640" height="360" controls>
+	  			<source src="static/example1.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+		</video>
+		<br><br>
+	</body>
+</html>
